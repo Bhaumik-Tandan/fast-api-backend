@@ -3,5 +3,6 @@ from app.db import db
 
 async def createUser(createUser:CreateUserDTO):
     user_collection = db['users']
-    user=await user_collection.insert_one(user)
+    user=user_collection.insert_one(createUser.dict())
+    user=createUser
     return user
