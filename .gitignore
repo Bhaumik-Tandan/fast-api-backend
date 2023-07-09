@@ -1,0 +1,38 @@
+# FastAPI specific
+__pycache__/
+.env
+/.venv
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Dependency directories
+venv/
+env/
+envs/
+*/env/
+*/envs/
+
+# Build files
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Miscellaneous
+*.swp
+*.swo
+*.DS_Store
